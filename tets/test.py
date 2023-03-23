@@ -24,7 +24,12 @@ class test(unittest.TestCase):
     def test_rectangulo(self,A,B):
         rectangulo1=rectangulo(A,B)
         self.assertEqual(rectangulo1,None)
-    def test_altura
+    def test_altura(self):
+        self.assertEqual(rectangulo.altura,None)
+
+    def tesr_area(self):
+        self.assertEqual(rectangulo.area,None)
+
 
 
 
