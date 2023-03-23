@@ -30,7 +30,16 @@ class Punto:
         return f"Distancia entre {Punto} y {self}:{math.sqrt((Punto.x-self.x)**2+(Punto.y-self.y)**2)}"
     
 class rectangulo(Punto):
+    def __init__(self,ptoi=Punto(),ptof=Punto()):
+        self.ptoi=ptoi
+        self.ptof=ptof
     
+    def base(self,ptoi,ptof):
+        return f"la base es :{(self.ptof.x)-(self.ptoi.x)}"
+            
+
+
+
         
 
 
