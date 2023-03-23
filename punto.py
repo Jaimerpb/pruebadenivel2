@@ -21,6 +21,8 @@ class Punto:
             return f"El punto ({self.x},{self.y}) está sobre el eje y" 
         elif self.x!=0 and self.y==0:
             return f"El punto ({self.x},{self.y}) está sobre el eje x"
+        else :
+            return "el punto está sobre el origen "
     @staticmethod 
     def vector(self,Punto):
         return f"Vector: {abs(Punto.x-self.x)},{abs(Punto.y-self.y)}"
