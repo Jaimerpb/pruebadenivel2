@@ -39,7 +39,11 @@ class rectangulo(Punto):
     
     def altura(self,ptoi,ptof):
         return f"la altura es :{(self.ptof.y)-(self.ptoi.y)}"
-        
+    
+    def area (self,altura,base):
+        return f"El area del rectsangulo es : {altura*base}"
+
+
             
 
 
