@@ -1,6 +1,6 @@
 import math
 
-class Punto:
+class Punto():
     def __init__(self,x,y):
         self.x=x
         self.y=y
@@ -32,7 +32,7 @@ class Punto:
         return f"Distancia entre {Punto} y {self}:{math.sqrt((Punto.x-self.x)**2+(Punto.y-self.y)**2)}"
     
 class rectangulo(Punto):
-    def __init__(self,ptoi=Punto(),ptof=Punto()):
+    def __init__(self,ptoi=Punto,ptof=Punto):
         self.ptoi=ptoi
         self.ptof=ptof
     

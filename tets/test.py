@@ -21,7 +21,12 @@ class test(unittest.TestCase):
     def test_distancia(self,A,B):
         self.assertEqual(A.distancia(B),None)
     
-    def test_rectangulo()
+    def test_rectangulo(self,A,B):
+        rectangulo1=rectangulo(A,B)
+        self.assertEqual(rectangulo1,None)
+    def test_altura
+
+
 
 
 
