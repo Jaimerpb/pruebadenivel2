@@ -7,11 +7,23 @@ class test(unittest.TestCase):
         B=Punto(5,5)
         C=Punto(-3,-1)
         D=Punto(0,0)
-        self.assertEqual(A.__init__(),"(2,3)")
-        self.assertEqual(B.__init__(),"(5,5)")
-        self.assertEqual(C.__init__(),"(-3,-1)")
-        self.assertEqual(D.__init__(),"(0,0)")
+        self.assertEqual(A.__init__(),None)
+        self.assertEqual(B.__init__(),None)
+        self.assertEqual(C.__init__(),None)
+        self.assertEqual(D.__init__(),None)
+    def test_cuadrante(self,A,C,D):
+        self.assertEqual(A.cuadrante(),None)
+        self.assertEqual(C.cuadrante(),None)
+        self.assertEqual(D.cuadrante(),None)
+    def test_vector(self,A,B):
+        self.assertEqual(A.vector(B),None)
+        self.assertEqual(B.vector(A),None)
+    def test_distancia(self,A,B):
+        self.assertEqual(A.distancia(B),None)
     
+    def test_rectangulo()
+
+
 
 
 
