@@ -1,3 +1,5 @@
+import math
+
 class Punto:
     def __init__(self,x,y):
         self.x=x
@@ -21,9 +23,16 @@ class Punto:
             return f"El punto ({self.x},{self.y}) está sobre el eje x"
     @staticmethod 
     def vector(self,Punto):
-        return f"Vector: {abs(Punto.x-sef.x)},{abs(Punto.y-self.y)}"
+        return f"Vector: {abs(Punto.x-self.x)},{abs(Punto.y-self.y)}"
+    @staticmethod 
+    def distancia(self,Punto):
+        #import amth 
+        return f"Distancia entre {Punto} y {self}:{math.sqrt((Punto.x-self.x)**2+(Punto.y-self.y)**2)}"
     
+class rectangulo(Punto):
     
+        
+
 
 
         
